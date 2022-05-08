@@ -1,0 +1,70 @@
+@media (max-width: 740px) {
+    button {
+        display: inline-block;
+        margin: auto;
+        box-sizing: border-box;
+        text-align: center;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 7em;
+        margin-bottom: 10px;
+    }
+
+    @media(max-width: 412px) {
+        button {
+            display: block;
+            margin: auto;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 7em;
+          
+        }
+        
+    }
+
+    @media (max-width: 375px) {
+        button {
+            display: block;
+            margin: auto;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 6.5em;
+        }
+    }
+
+    @media (max-width: 280px) {
+        button {
+            display: block;
+            margin: auto;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 4.5em;
+        }
+    }
+
+    button:hover {
+        color: white;
+        border-color: aliceblue;
+    }
+}
