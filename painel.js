@@ -1,16 +1,20 @@
-var horas = 0;
-var minutos = 0;
-var segundos = 0;
-
-var tempo = 1000;
-var cron;
+let horas = 0;
+let minutos = 0;
+let segundos = 0;
+let contador = 0;
+let tempo = 1000;
+let cron;
 
 function iniciar() {
-    cron = setInterval(() => { timer()},tempo);
+    if (contador === 0) cron = setInterval(() => { timer()},tempo);
+    contador++
+  
 }
 
 function pausar(){
     clearInterval(cron);
+    contador = 0;
+   
 }
 
  function limpar(){
@@ -20,7 +24,10 @@ function pausar(){
      segundos = 0;
 
      document.getElementById("cronometro").innerHTML= "00:00:00";
+     
+     contador = 0;
  }
+
 
  function timer(){
      segundos++; 
@@ -32,7 +39,9 @@ function pausar(){
          minutos = 0;
          horas++
      }
-     var formato = (horas < 10 ? '0'+ horas : horas) + ':' + (minutos < 10 ? '0'+ minutos : minutos) + ':' + (segundos < 10 ? '0' + segundos : segundos)
+
+
+     let formato = (horas < 10 ? '0'+ horas : horas) + ':' + (minutos < 10 ? '0'+ minutos : minutos) + ':' + (segundos < 10 ? '0' + segundos : segundos)
      document.getElementById("cronometro").innerText = formato
     }
 

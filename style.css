@@ -22,6 +22,7 @@ h1{
     height: 100px;
     margin: auto;
     text-align: center;
+    cursor: pointer;
 }
 
 .iniciar{
@@ -29,6 +30,7 @@ h1{
     color:gold;
     font-family: 'Macondo', cursive;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .pausar{
@@ -36,6 +38,7 @@ h1{
     color:#00A1FF;
     font-family: 'Macondo', cursive;
     font-weight: bold;
+    cursor: pointer;
     
 
 }
@@ -45,6 +48,7 @@ h1{
     color:aquamarine;
     font-family: 'Macondo', cursive;
     font-weight: bold;
+    cursor: pointer;
 }
 
 button{
