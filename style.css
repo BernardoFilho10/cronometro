@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    
 }
 
 @font-face {
@@ -18,40 +19,31 @@ h1{
     margin-bottom: 10px;
 }
 .container{
-    max-width: 500px;
+    max-width: 560px;
     height: 100px;
     margin: auto;
     text-align: center;
-    cursor: pointer;
 }
 
 .iniciar{
     background-color: #0d925481 ;
-    color:gold;
-    font-family: 'Macondo', cursive;
-    font-weight: bold;
-    cursor: pointer;
+    color:gold;  
 }
 
 .pausar{
     background-color: #cebe33;
     color:#00A1FF;
-    font-family: 'Macondo', cursive;
-    font-weight: bold;
-    cursor: pointer;
-    
-
 }
 
 .limpar{
     background-color: #4d0707;
     color:aquamarine;
-    font-family: 'Macondo', cursive;
-    font-weight: bold;
-    cursor: pointer;
 }
 
 button{
+    font-family: 'Macondo', cursive;
+    font-weight: bold;
+    cursor: pointer;
     padding: 8px;
     display: inline-block;
     width: 30%;
